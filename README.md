@@ -1,3 +1,23 @@
+---
+base_model: Qwen/Qwen2.5-VL-3B-Instruct
+pipeline_tag: image-to-text
+library_name: peft
+tags:
+- vision-language
+- lora
+- floor-plan
+- vectorization
+- structured-json
+- cubicasa
+- sft
+datasets:
+- Claudio9701/cubicasa5k
+- Forceless/Zenodo10K
+license: apache-2.0
+language:
+- en
+---
+
 # Qwen2.5-VL floor plan SFT adapter (stage 1)
 
 **Hub:** [`mudasir13cs/qwen25-vl-3b-floorplan-sft`](https://huggingface.co/mudasir13cs/qwen25-vl-3b-floorplan-sft)
